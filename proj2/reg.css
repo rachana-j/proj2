@@ -1,0 +1,82 @@
+﻿.login-container {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/reg3.jpg');
+    width: 1500px;
+    height: 900px;
+    background-size: cover;
+}
+
+.loginbox {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 650px;
+    height: 800px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5);
+}
+
+.user {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    top: calc(-100px/2);
+    left: calc(50% - 50px);
+    position: absolute;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: rgb(255,217,9);
+}
+
+.lblfn, .lbldob, .lblcn, .lble, .lblbt, .lblg, .lblfa, .lbla, .lblmi, .lbld {
+    font-weight: bold;
+    color: #fff;
+}
+
+.txtfn, .txtdob, .txtcn, .txtbt, .txte, .txtg, .txta, .txtfa, .txtmi, .txtd, .btnreg {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.txtfn, .txtdob, .txtcn, .txtbt, .txte, .txtg, .txta, .txtfa, .txtmi, .txtd{
+    border: none;
+    border-bottom: 3px solid #fff;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+::placeholder {
+    color: rgba(255,255,255,.5);
+}
+
+.btnreg {
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    color: black;
+    background-color: lightcyan;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+    .btnreg:hover {
+        background-color: rgb(255,217,9);
+    }
+
+
+
+
+
+

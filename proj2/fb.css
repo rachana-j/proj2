@@ -1,0 +1,56 @@
+﻿.fb-container {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/fb2.png');   
+    height: 900px;
+    background-size: cover;
+}
+
+.fb {
+    position: absolute;
+    top: 100%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    width: 950px;
+    height: 850px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+}
+.lblfn, .lble, .lblds, .lblas {
+    font-weight: bold;
+    color: black;
+}
+
+.txtfn, .txte, .txtas, .btnsubmit {
+    width: 100%;
+    margin-bottom: 40px;
+}
+.txtfn, .txtas, .txte {
+    border: none;
+    border-bottom: 3px solid #fff;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+::placeholder {
+    color: black;
+}
+
+.btnsubmit {
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(255,9,9);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+    .btnsubmit:hover {
+        background-color: rgb(255,217,9);
+}
